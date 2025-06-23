@@ -7,7 +7,7 @@ http://my-ebs-env.eba-pwmcdgmn.us-east-1.elasticbeanstalk.com/mainscreen   *NO L
 
 This project demonstrates inventory management by filtering for engine parts and car products. It includes indexing as well as search functionality for either parts or products. CRUD is used in the project to create, update, and delete engine parts and car products. The theme of the project focuses on car products which will be car models in this case, with engine parts corresponding to each product.
 
-![Link To UML](https://github.com/user-attachments/assets/50b86a4a-6927-4f58-a51c-b5f9ce00231c)
+![](https://github.com/user-attachments/assets/50b86a4a-6927-4f58-a51c-b5f9ce00231c)
 
 ## Features
 
@@ -47,6 +47,8 @@ This project demonstrates inventory management by filtering for engine parts and
 
 
 
+
+
 ## UML Overview
 
 The system models a **many-to-many** relationship between Products and Parts using a `product_part` join table.
@@ -55,7 +57,10 @@ The system models a **many-to-many** relationship between Products and Parts usi
 * **Parts** = either **InhousePart** (includes part ID) or **OutsourcedPart** (includes company name)
 * Uses **single-table inheritance** for part types
 
-![UML DIAGRAPHM PIC](https://github.com/user-attachments/assets/7171c3c3-ad40-4faa-bef1-03ab7ff010c1)
+
+![UML Image](https://github.com/user-attachments/assets/689e8e99-9e70-4cdb-8b33-59239d7edaa2)
+
+
 ---
 
 

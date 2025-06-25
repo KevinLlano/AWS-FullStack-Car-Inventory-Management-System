@@ -42,7 +42,7 @@ This project demonstrates inventory management by filtering for engine parts and
 - Mockito
 - Lombok
 - Maven
-```
+
 
 
 
